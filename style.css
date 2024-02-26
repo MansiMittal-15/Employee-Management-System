@@ -1,0 +1,92 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+main{
+    display: flex;
+    margin-top: 120px;
+}
+
+
+.register{
+    background-color: lightgoldenrodyellow;
+    border: double red 6px;
+    margin: 5px;
+    width: 50%;
+    height: 500px;    
+}
+
+
+.head{
+    text-align: center;
+}
+
+
+.content{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+#name, #city{
+    padding: 5px;
+    border: none;
+    border-radius: 6px;
+}
+
+
+#salary{
+    padding: 9px;
+    border-radius: 30px;
+    width: 200px;
+}
+
+
+button{
+    padding: 10px;
+    border-radius: 30px;
+    color: white;
+    background-color: rgba(41, 110, 41, 0.925);
+    font-weight: 600;
+    font-size: large;
+}
+
+
+button:hover{
+    background-color: rgb(8, 190, 8);
+    cursor: pointer;
+}
+
+
+.records{
+    background-color: lightyellow;
+    border: solid red 2px;
+    margin: 5px;
+    width: 50%;
+    height: 500px;
+    text-align: center;
+}
+
+
+.table{
+    display: flex;
+    justify-content: center;
+}
+
+
+table, thead{
+    padding: 3px;
+}
+
+
+th{
+    padding: 10px;
+    background-color: rgba(158, 158, 158, 0.498);
+}

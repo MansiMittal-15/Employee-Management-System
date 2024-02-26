@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee management system</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main>
+
+        <div class="register">
+    
+            <div class="head">
+                <br><h1>Register</h1><br>
+                <h4>Please fill this form to create a Record.</h4>
+            </div>
+            <br>
+            <hr>
+
+            <br><br>
+            <div class="content">
+
+                <label for="name" style="display: flex;">Employee name:- <p style="color: red; font-size: 10px;">required*</p></label>
+                <input type="text" id="name" placeholder="Enter the name here.. *" required><br><br>
+
+                <label for="city" style="display: flex;">City:- <p style="color: red; font-size: 10px;">required*</p></label>
+                <input type="text" id="city" placeholder="Enter the city here.. *" required><br><br>
+
+                <label for="salary" style="display: flex;">Salary:- <p style="color: red; font-size: 10px;">required*</p></label>
+                <input type="number" id="salary" placeholder="Employee salary... *" required ><br>
+
+                <button id="btn">Submit</button>
+
+            </div>
+
+        </div>
+
+      
+        <div class="records">
+    
+            <h1>Records</h1>
+            <br>
+
+            <div class="table">
+                
+                            <table border="3">
+                
+                                <thead>
+                                    <th>Emp Name</th>
+                                    <th>City</th>
+                                    <th>Salary</th>
+                                    <th>Edit</th>
+                                    <th>Delete</th>
+                                </thead>
+                
+                            </table>
+            </div>
+
+        </div>
+
+    </main>
+
+    <script src="index.js" ></script>
+
+</body>
+</html>
