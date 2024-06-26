@@ -46,7 +46,6 @@ const insertRow = ()=>{
         let name = td1.innerHTML;
         let city = td2.innerHTML;
         let salary = td3.innerHTML;
-        
 
         td1.innerHTML = prompt("Wanna change employee name ..?");
 
@@ -80,4 +79,10 @@ btn.addEventListener("click", ()=>{
     }
 
     
+    setTimeout(()=>{
+        naam.value = "";
+        city.value = "";
+        salary.value = "";
+    }, 2000)
 });
+
